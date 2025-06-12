@@ -43,7 +43,7 @@ email-threat-detector/
 │   └── vectorizer.pkl
 │
 ├── gui/                       # GUI to run predictions
-│   ├── phishing_email_gui.py  # GUI app using trained model
+│   └── phishing_email_gui.py  # GUI app using trained model
 │   
 │
 └── utils/                     # (Optional) Helper functions in the future
