@@ -16,3 +16,6 @@ It’s a helpful tool for students, office workers, and anyone who wants to stay
 - 🖥️ Simple and clean GUI (Tkinter)
 - 💡 Very easy to run – No advanced setup required
 - 🔐 Works offline after installation
+## 🖼️ Demo
+
+![App Screenshot](UI.png)
