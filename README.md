@@ -114,18 +114,6 @@ python phishing_app.py.py
 - **Input:** URL (string)
 - **Output:** "PHISHING EMAIL" or "NORMAL EMAIL"
 
-
- How the Model Was Trained
-Data Collection:
-Gathered a dataset of emails labeled as phishing or normal (safe).
-
-🧪 Model Info
-Algorithm: Multinomial Naive Bayes
-
-Input: Email text (string)
-
-Output: "NORMAL EMAIL" or "PHISHING EMAIL"
-
 How the Model Was Trained
 
 - Data Collection: Gathered a dataset of emails labeled as spam/phishing or safe (normal).
