@@ -63,12 +63,12 @@ pip install -r requirements.txt
 Example `requirements.txt`:
 
 ```
-tk
+pillow
+pytesseract
 scikit-learn
-joblib
+numpy
+tk
 ```
-
-(Include any others you use like `numpy`, `pandas`, etc.)
 
 ---
 
