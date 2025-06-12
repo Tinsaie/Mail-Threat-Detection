@@ -130,12 +130,6 @@ How the Model Was Trained
 
 ---
 
-## 📸 Screenshots
-
-_Add your app screenshots here if available._
-
----
-
 ## ✍️ Author
 
 - **Tinsaie**
