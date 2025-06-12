@@ -1,34 +1,96 @@
-# 📧 Mail Threat Detection
+# 🛡️ PhishShield
 
-**Mail Threat Detection** is a smart email scanner built with **machine learning** and **OCR (Optical Character Recognition)**. It helps detect **phishing** and **spam emails** before they become a threat.
-
-Users can **either type/paste the email content** or **upload an image** (like a screenshot of an email). The app will extract the text from the image, scan it using a trained model, and instantly show whether the message is **safe** or **spam**.
-
-It’s a helpful tool for students, office workers, and anyone who wants to stay safe from online email threats.
+**PhishShield** is a simple and powerful desktop application built using **Python**, **Tkinter**, and a trained **machine learning model** to detect phishing websites in real-time.
 
 ---
 
-## 🔍 Key Features
+## 📌 Features
 
-- ✅ Scans email text and predicts: `Spam` or `Safe`
-- 🖼️ Supports image input — Extracts email content using OCR (Tesseract)
-- 🧠 Uses trained ML model (Naive Bayes) and TfidfVectorizer
-- 🖥️ Simple and clean GUI (Tkinter)
-- 💡 Very easy to run – No advanced setup required
-- 🔐 Works offline after installation
-## 🖼️ Demo
-
-![App Screenshot](UI.png)
----
-## 🛠️ How to Run the Project
-
-Follow these steps to set up and run the Mail Threat Detection app on your computer:
+- ✅ Detects phishing URLs using a trained ML model
+- 🧠 Uses `RandomForestClassifier` trained on phishing data
+- 🖥️ Built with `Tkinter` for a simple GUI
+- 💡 Easy to use: paste a URL and get instant results!
 
 ---
 
-### ✅ 1. Clone the Repository
+## 📁 Folder Structure
+
+```
+PhishShield/
+├── main.py                    # Main GUI application
+├── spam_classifier_model.pkl  # Trained ML model
+├── vectorizer.pkl             # Text vectorizer for URLs
+├── requirements.txt           # List of required libraries
+└── README.md                  # Project documentation
+```
+
+---
+
+## ⚙️ Requirements
+
+Install the required libraries with:
 
 ```bash
-git clone https://github.com/Tinsaie/Mail-Threat-Detection.git
-cd Mail-Threat-Detection
+pip install -r requirements.txt
+```
 
+Example `requirements.txt`:
+
+```
+tk
+scikit-learn
+joblib
+```
+
+(Include any others you use like `numpy`, `pandas`, etc.)
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Tinsaie/PhishShield.git
+cd PhishShield
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the application:
+
+```bash
+python main.py
+```
+
+---
+
+## 🧪 Model Info
+
+- **Algorithm:** RandomForestClassifier
+- **Input:** URL (string)
+- **Output:** "Safe" or "Phishing"
+
+---
+
+## 📸 Screenshots
+
+_Add your app screenshots here if available._
+
+---
+
+## ✍️ Author
+
+- **Tinsaie**
+- Email: tinsaiebbs@gmail.com
+- GitHub: [@Tinsaie](https://github.com/Tinsaie)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
