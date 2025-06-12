@@ -31,3 +31,10 @@ Follow these steps to set up and run the Mail Threat Detection app on your compu
 ```bash
 git clone https://github.com/Tinsaie/Mail-Threat-Detection.git
 cd Mail-Threat-Detection
+✅ 2. Install Python Libraries
+Make sure you have Python installed, then install the required packages:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
