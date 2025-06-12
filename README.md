@@ -19,3 +19,15 @@ It’s a helpful tool for students, office workers, and anyone who wants to stay
 ## 🖼️ Demo
 
 ![App Screenshot](UI.png)
+---
+## 🛠️ How to Run the Project
+
+Follow these steps to set up and run the Mail Threat Detection app on your computer:
+
+---
+
+### ✅ 1. Clone the Repository
+
+```bash
+git clone https://github.com/Tinsaie/Mail-Threat-Detection.git
+cd Mail-Threat-Detection
