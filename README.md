@@ -27,7 +27,6 @@ It’s a helpful tool for students, office workers, and anyone who wants to stay
 ```
 email-threat-detector/
 ├── README.md                   # Overview, instructions, and usage guide
-├── .gitignore                 # Files/folders to ignore in Git (like __pycache__)
 ├── requirements.txt           # Required Python libraries
 │
 ├── training/                  # Training-related files
@@ -45,8 +44,7 @@ email-threat-detector/
 │
 ├── gui/                       # GUI to run predictions
 │   ├── phishing_email_gui.py  # GUI app using trained model
-│   ├── ok_icon.png            # Icon for good (ham) email
-│   ├── bad_icon.png           # Icon for spam email
+│   
 │
 └── utils/                     # (Optional) Helper functions in the future
     └── email_cleaner.py       # You can move clean_email() here if modularizin
