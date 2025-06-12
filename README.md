@@ -74,20 +74,33 @@ tk
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+✅ 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Tinsaie/PhishShield.git
 cd PhishShield
 ```
 
-2. Install dependencies:
+✅ 2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
+✅ 3. Install Tesseract OCR Engine
+This is used to read text from images.
 
-3. Run the application:
+Download from:
+https://github.com/tesseract-ocr/tesseract
+
+Install it
+
+Add the path to Tesseract in your system environment (e.g. C:\Program Files\Tesseract-OCR)
+
+Restart your computer if needed
+
+---
+
+✅ 4. Run the application:
 
 ```bash
 python phishing_app.py.py
@@ -97,9 +110,35 @@ python phishing_app.py.py
 
 ## 🧪 Model Info
 
-- **Algorithm:** RandomForestClassifier
+- **Algorithm:** Multinomial Naive Bayes
 - **Input:** URL (string)
-- **Output:** "Safe" or "Phishing"
+- **Output:** "PHISHING EMAIL" or "NORMAL EMAIL"
+
+
+ How the Model Was Trained
+Data Collection:
+Gathered a dataset of emails labeled as phishing or normal (safe).
+
+🧪 Model Info
+Algorithm: Multinomial Naive Bayes
+
+Input: Email text (string)
+
+Output: "NORMAL EMAIL" or "PHISHING EMAIL"
+
+How the Model Was Trained
+
+- Data Collection: Gathered a dataset of emails labeled as spam/phishing or safe (normal).
+
+- Data Preprocessing: Cleaned emails by removing special characters and lowercasing all text.
+
+- Feature Extraction: Converted text into numeric features using TfidfVectorizer to capture important words.
+
+- Model Training: Used Multinomial Naive Bayes from scikit-learn, splitting data into 80% training and 20% testing.
+
+- Evaluation: Tested model accuracy on the test data and tuned preprocessing/parameters accordingly.
+
+- Saving: Saved the trained model and vectorizer using pickle for use in the app.
 
 ---
 
@@ -117,6 +156,3 @@ _Add your app screenshots here if available._
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
