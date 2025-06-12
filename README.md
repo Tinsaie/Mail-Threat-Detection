@@ -1,2 +1,2 @@
 # Mail-Threat-Detection
-A next-generation email security solution powered by machine learning
+A next-generation mail security solution powered by machine learning
