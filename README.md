@@ -10,7 +10,7 @@ It’s a helpful tool for students, office workers, and anyone who wants to stay
 
 ## 🔍 Key Features
 
-- ✅ Scans email text and predicts: `Spam` or `Safe`
+- Scans email text and predicts: `Spam` or `Safe`
 - 🖼️ Supports image input — Extracts email content using OCR (Tesseract)
 - 🧠 Uses trained ML model (Naive Bayes) and TfidfVectorizer
 - 🖥️ Simple and clean GUI (Tkinter)
